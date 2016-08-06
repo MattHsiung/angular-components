@@ -1,2 +1,2 @@
 import './components/home';
-alert('hello');
+alert('hey');
