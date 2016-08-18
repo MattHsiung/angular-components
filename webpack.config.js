@@ -32,6 +32,11 @@ module.exports = {
 				test: /\.css$/,
 				loaders: ['style', 'css'],
 				include: path.join(__dirname, 'client')
+			},
+			{
+				test: /\.gif$/,
+				loaders: ['file'],
+				include: path.join(__dirname, 'client')
 			}
 		]
 	},
