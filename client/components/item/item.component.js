@@ -1,6 +1,6 @@
 import './item.sass';
 
 export default {
-	template: `<div></div>`
+	template: `<div>¥80</div>`
 
 }
