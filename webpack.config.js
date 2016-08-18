@@ -17,6 +17,21 @@ module.exports = {
 				test: /\.js$/,
 				loader: 'babel',
 				include: path.join(__dirname, 'client')
+			},
+			{
+				test: /\.html$/,
+				loader: 'raw',
+				include: path.join(__dirname, 'client')
+			},
+			{
+				test: /\.sass$/,
+				loaders: ['style', 'css', 'sass'],
+				include: path.join(__dirname, 'client')
+			},
+			{
+				test: /\.css$/,
+				loaders: ['style', 'css'],
+				include: path.join(__dirname, 'client')
 			}
 		]
 	},

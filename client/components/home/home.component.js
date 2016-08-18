@@ -3,7 +3,7 @@ class controller {
 		this.HomeService = HomeService;
 	}
 	$onInit() {
-		this.name = 'Home'
+		this.name = 'Home';
 		this.isConnected = this.HomeService.name;
 	}
 }
